@@ -61,7 +61,7 @@ const About: FC<{
 					Звернутись до Національного банку України
 				</a>
 				<br /> <br />
-				{/*<DocumentsList list={aboutCompany}/>*/}
+				<DocumentsList list={aboutCompany} />
 			</SplitBlocks>
 
 			{children}

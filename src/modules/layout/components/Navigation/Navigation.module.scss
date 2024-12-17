@@ -50,6 +50,10 @@
 		font-size: 18px;
 	}
 
+	&:visited {
+		all: unset;
+	}
+
 	&:hover,
 	&.active {
 		color: var(--white);
