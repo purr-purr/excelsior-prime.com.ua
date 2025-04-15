@@ -1,9 +1,7 @@
 import { FC, type ReactNode } from 'react';
 
 import BlockTitle from '@modules/common/components/BlockTitle';
-import DocumentsList from '@modules/common/components/DocumentsList';
 import SplitBlocks from '@modules/common/components/SplitBlocks';
-import { aboutCompany } from '@modules/home/components/About/data';
 
 import { COMPANY_ADDRESS, COMPANY_EMAIL, COMPANY_PHONE } from '@utils/const';
 
@@ -44,13 +42,15 @@ const About: FC<{
 					<b>Директор</b>
 				</p>
 				<p>ПРОНЬКО ВАДИМ ОЛЕГОВИЧ</p>
+				<p>ТОВ «СТРАХОВИЙ БРОКЕР «ЕКСЕЛЬСІОР ПРАЙМ» у відповідності до рішення
+					Національного Банку України № 21/370-рк від 11.04.2025 включено до реєстру страхових
+					посередників. Реєстраційний в реєстрі страхових посередників № 00016545.</p>
 				<a
-					href="https://bank.gov.ua/ua/supervision/nonbanks/registers-lists"
+					href="https://kis.bank.gov.ua/search-fu"
 					target="_blank"
 					rel="noreferrer"
 				>
-					Офіційне інтернет - представництво Національного банку, на якій розміщено
-					Реєстр страхових та перестрахових брокерів
+					Пошук у реєстрі страхових посередників
 				</a>{' '}
 				<br /> <br />
 				<a
@@ -61,7 +61,6 @@ const About: FC<{
 					Звернутись до Національного банку України
 				</a>
 				<br /> <br />
-				<DocumentsList list={aboutCompany} />
 			</SplitBlocks>
 
 			{children}

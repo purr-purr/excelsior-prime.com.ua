@@ -2,6 +2,7 @@ import Accordion from '@modules/common/components/Accordion';
 import DocumentsList from '@modules/common/components/DocumentsList';
 import SplitBlocks from '@modules/common/components/SplitBlocks';
 import {
+	archiveInfo,
 	infoOwnershipStructure,
 	news,
 } from '@modules/home/components/Reports/data';
@@ -51,6 +52,10 @@ const Reports = () => {
 			<Accordion title="Новини">
 				<p>Розділ в процесі наповнення</p>
 				<DocumentsList list={news} />
+			</Accordion>
+
+			<Accordion title="Архівна інформація">
+				<DocumentsList list={archiveInfo} />
 			</Accordion>
 		</SplitBlocks>
 	);
