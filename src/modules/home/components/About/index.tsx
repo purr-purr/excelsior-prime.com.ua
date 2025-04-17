@@ -13,7 +13,7 @@ const About: FC<{
 			<BlockTitle title="Про компанію" />
 
 			<SplitBlocks
-				title={`Про ТОВ «СТРАХОВИЙ БРОКЕР «СМАРТПРОГРЕС»`}
+				title={`Про ТОВ «СТРАХОВИЙ БРОКЕР «ЕКСЕЛЬСІОР ПРАЙМ».`}
 				titleType="text"
 			>
 				<p>
